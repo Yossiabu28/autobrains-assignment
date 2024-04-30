@@ -123,19 +123,3 @@ try:
 except Exception as error:
     print(f"Error: {error}")
 
-
-# local_hash = calculate_folder_hash(r"C:\Users\yossi\Desktop\Autobrains_New\Update\Update_zip\ros2_public_repo-main")
-# print("***************************LOCAL*********")
-# print(local_hash)
-# print("***************************LOCAL*********")
-#
-#
-# username = "ec2-user"
-# ip_address = "54.87.124.176"
-# private_key_path = r"C:\Users\yossi\Desktop\Yoss_key.pem"
-# remote_folder_path = "/home/ec2-user/ros2_public_repo-main"
-#
-# remote_hash = get_remote_folder_hash(username, ip_address, private_key_path, remote_folder_path)
-# print("***************************REMOTE*********")
-# print(remote_hash)
-# print("***************************REMOTE*********")
